@@ -11,7 +11,7 @@ InsertButton.addEventListener('click', async () => {
         .SetForm('form')
         .Validate();
     console.log(IsValid);*/
-    const response = await Requests.SetForm('form').Post('/empresas/insert');
+    const response = await Requests.SetForm('form').Post('/empresa/insert');
 });
 /*
 const Salvar = document.getElementById('salvar');
